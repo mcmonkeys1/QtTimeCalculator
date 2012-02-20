@@ -106,7 +106,7 @@ void DlgTimeCalc::on_btnPlus_clicked()
 
 	lineSecs->setText("00");
 	lineMins->setText("0");
-
+	lineSecs->setPalette( _palSecs );
 }
 
 void DlgTimeCalc::on_btnMinus_clicked()
@@ -122,6 +122,7 @@ void DlgTimeCalc::on_btnMinus_clicked()
 
 	lineSecs->setText("00");
 	lineMins->setText("0");
+	lineSecs->setPalette( _palSecs );
 }
 
 /* Main functionality is to shift digits left into minutes box */
