@@ -1,5 +1,8 @@
+# Generic Qt4 for compiling sources from a single directory.
+# Only the project name needs to be changed.
+#
 cmake_minimum_required (VERSION 2.8)
-project (QtTimeCalculator)
+project (QtTimeCalculator) # <-Change to the name of your project.
 
 find_package(Qt4 REQUIRED)
 include(${QT_USE_FILE})
